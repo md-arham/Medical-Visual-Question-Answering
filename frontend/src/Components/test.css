@@ -1,0 +1,90 @@
+.previous_chat {
+    background-color: #000000;
+    min-height: 100vh;
+    color: white;
+
+}
+
+body {
+    overflow-y: hidden;
+}
+
+
+.prompt{
+    color:#18e74f;
+}
+
+
+.textarea {
+    background-color: #343541;
+    color: white;
+}
+
+.current_chat {
+    background-color: #343541;
+    min-height: 100vh;
+    color: white;
+}
+
+.hieght-and-width {
+    height: 480px;
+    width: 520px;
+}
+
+textarea {
+    background: #343541;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #ededed;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 12px;
+    resize: none;
+    transition: border-color 150ms ease;
+    width: 100%;
+    min-height: 50px;
+}
+
+textarea:hover {
+    border-color: #ffffff;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+textarea::placeholder {
+    color: #c6c6c6;
+}
+
+
+.scrollable-div {
+    max-height: 550px; /* Set a maximum height for the div */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border for visibility */
+    padding: 24px; /* Optional: Add padding for better aesthetics */
+}
+
+
+
+
+.dottedborder {
+    border: 2px dotted #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dottedborder:hover {
+    border: 2px dotted #454cad; 
+}
+
+
+.your-custom-class {
+    transform: scale(2, 2); 
+}
+
+
+
+
